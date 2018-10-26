@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "axios": "^0.15.2",
+    "jquery": "^3.1.0",
+    "laravel-mix": "^0.10.0",
+    "lodash": "^4.16.2",
+    "vue": "^2.0.1",
+    "vue-router": "^2.2.0",
+    "vee-validate": "latest"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.4.1",
+    "firebase": "^5.5.5",
+    "material-design-icons-iconfont": "^3.0.3",
+    "metro-dist": "latest",
+    "notie": "^4.3.0",
+    "nprogress": "^0.2.0",
+    "vue-router": "^2.8.1",
+    "vue2-animate": "^2.1.0",
+    "vuetify": "^1.2.4",
+    "webpack": "2.2.1"
+  }
+}

@@ -1,0 +1,65 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import "./fonts.css";
+
+@import "~material-design-icons-iconfont";
+//@import "../../../node_modules/materialize-css/";
+@import '../../../node_modules/vuetify/dist/vuetify.min.css';
+
+@import "../../../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+//Notie
+@import "~notie/dist/notie.min";
+
+//NProgress
+@import "~nprogress/nprogress";
+
+$animationDuration: 0.2s;
+@import "../../../node_modules/vue2-animate/src/sass/vue2-animate.scss";
+// Variables
+@import 'variables';
+
+// @import "./../cards/card.css";
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+html {
+  font-family: 'Roboto'
+}
+
+
+/* Change the white to any color ;) */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 300px #FFF inset !important;
+  -webkit-text-fill-color: black !important;
+}
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 300px #FFF inset !important;
+  -webkit-text-fill-color: black !important;
+}
+
+
+input:focus:not(.search), .validate:focus:not(.search) {
+  color: #000; 
+  border-bottom-color: #000 !important;
+  -webkit-box-shadow: 0 1px 0 0 #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+
+
+.pointer {
+  cursor: pointer;
+}
+
+
+
+#nprogress .bar {
+  height: 7px !important;
+}
